@@ -27,13 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Scaffold - v2.1.0
-  * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
+  
 </head>
 
 <body>
@@ -51,7 +45,13 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html" style="font-size: 18px;">Home</a></li>
-          <li><a href="abouts" style="font-size: 18px;">About</a>
+          <li><a href="index.html#about" style="font-size: 18px;">About</a>
+            <script>
+              if(window.location.href.includes("#aboutus"))
+          {
+              $(document).scrollTop(450);
+          }
+            </script>
             <!-- <ul>
               <li><a href="#about">About Us</a></li>
               <li><a href="#team">Team</a></li>
@@ -69,18 +69,23 @@
           </li>
           <li class="drop-down"><a href="#services" style="font-size: 18px;">Services</a>
             <ul>
-              <li><a href="#">Web Desiging/Development</a></li>
-              <li><a href="#">Application Development</a></li>
-              <li><a href="#">Social Media Marketing</a></li>
-              <li><a href="#">Creative Media</a></li>
-              <li><a href="#">Paid Media</a></li>
-              <li><a href="#">Data Analsis</a></li>
-              <li><a href="#">Social Strategies</a></li>
-              <li><a href="#">Poadcast</a></li>
+              <li><a href="webdesign.html">Web Desiging/Development</a></li>
+              <li><a href="applicationdev.html">Application Development</a></li>
+              <li><a href="data_analysis.html">Data Analsis</a></li>
+              <li><a href="socialmedia.html">Social Media Marketing</a></li>
+              <li><a href="creative.html">Creative Media</a></li>
+              <li><a href="paidmedia.html">Paid Media</a></li>
+              <li><a href="social.html">Social Strategies</a></li>
             </ul>
           </li>
-          <li><a href="#portfolio" style="font-size: 18px;">Blogs</a></li>
-          <li><a href="#contact" style="font-size: 18px;">Contact</a></li>
+          <li><a href="blog.html" style="font-size: 18px;">Blogs</a></li>
+          <li><a href="index.html#contact" style="font-size: 18px;">Contact</a></li>
+          <script>
+          if(window.location.href.includes("#contact"))
+          {
+              $(document).scrollTop(450);
+          }
+          </script>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -95,6 +100,7 @@
     </div>
   </header><!-- End Header -->
 
+
   <!-- ======= Hero Section ======= -->
   <section id="hero">
 
@@ -102,7 +108,7 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
-            <h1 data-aos="fade-up" data-aos-delay="400" style="color: #4e4e4e;">Social Media Marketing</h1>
+            <h1 data-aos="fade-up" data-aos-delay="400" style="color: #4e4e4e;">Make Your Buisness a New Brand</h1>
             <h2 data-aos="fade-up" data-aos-delay="800" style="color: #333333;">Reklame is a dedicated team of individuals building a digital world !</h2>
 
           </div>
@@ -111,7 +117,7 @@
         </div>
 
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/socialmedia.jpg" class="img-fluid animated" alt="" style="width: 70vh;">
+          <img src="assets/img/socialmedia/socialmedia.jpg" class="img-fluid animated" alt="" style="width: 70vh;">
         </div>
       </div>
     </div>
@@ -125,32 +131,32 @@
         <div class="col-lg-12 col-12">
           <h1 class="heading" style="text-align: center;" data-aos="fade-up" data-aos-delay="400">Why your business need the Social Media Marketing ?</h1>
         </div>
-        <div class="col-lg-6 order-1 col-12"style="margin-top: 60px;"data-aos="fade-up" data-aos-delay="600">
-          <img src="assets/img/socialmedia.jpg" class="img-fluid">
+        <div class="col-lg-6 order-1 col-12"style="margin-top: 90px;"data-aos="fade-up" data-aos-delay="600">
+          <img src="assets/img/socialmedia/socialwhy.png" class="img-fluid">
         </div>
 
         <div class="col-lg-6 order-2">
-          <div class="row" style="margin-top: 100px;">
+          <div class="row" style="margin-top: 80px;">
             <div class="col-lg-6 col-md-6 col-12 "data-aos="fade-up" data-aos-delay="800">
-              <img src="assets/img/new456.png" class="img-fluid mx-auto d-block" style="width: 150px;">
+              <span style="font-size: 60px;margin-right: 50%;margin-left: 50%;color:#b030e3;">P</span>
               <h5 style="text-align: center;">Target Cart Abandoners</h5>
               <p style="text-align: center;">Show people the products they viewed to ensure they visit again. </p>
             </div>
 
             <div class="col-lg-6 col-md-6 col-12"data-aos="fade-up" data-aos-delay="800">
-              <img src="assets/img/new456.png" class="img-fluid mx-auto d-block" style="width: 150px;">
+              <span style="font-size: 60px;margin-right: 50%;margin-left: 50%;color:#b030e3;">P</span>
               <h5 style="text-align: center;">High-performance layouts</h5>
               <p style="text-align: center;">Get best layout as per the person, placement, and platform where the ad will show.</p>
             </div>
 
             <div class="col-lg-6 col-md-6 col-12"data-aos="fade-up" data-aos-delay="800">
-              <img src="assets/img/new456.png" class="img-fluid mx-auto d-block" style="width: 150px;">
+              <span style="font-size: 60px;margin-right: 50%;margin-left: 50%;color:#b030e3;">P</span>
               <h5 style="text-align: center;">Personalised Message</h5>
               <p style="text-align: center;">Write specific messages targeting particular segment of audience, say, visitors, cart abandoners, etc.</p>
             </div>
 
             <div class="col-lg-6 col-md-6 col-12"data-aos="fade-up" data-aos-delay="800">
-              <img src="assets/img/new456.png" class="img-fluid mx-auto d-block" style="width: 150px;">
+              <span style="font-size: 60px;margin-right: 50%;margin-left: 50%;color:#b030e3;">P</span>
               <h5 style="text-align: center;">High-performance layouts</h5>
               <p style="text-align: center;">Get best layout as per the person, placement, and platform where the ad will show.</p>
             </div>
@@ -159,24 +165,24 @@
       </div>
 
 
-      <div class="row">
+      <div class="row" style="margin-top: 70px;">
         <div class="col-lg-6 col-12 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="1000">
           <h2 style="margin-top: 150px;font-size: 38px;font-weight: 600;">Features of Our Service</h2>
-          <h5>We can help to compile a data feed of all the dynamic information (such as reviews, ratings, prices, description, etc). Once the ads are live, we’ll gain insights from the data to know which products are performing the best. This will further be converted into strategy for future campaigns.</h5>
+          <h5>Reklame uses social media platforms to connect client’s audience with their business to build their brand, increase sale, and drive website traffic. This involves highly targeted social media advertisements, regulation of data( socialmedia analytics) and analysis of their results. <br><br><b>At Reklame , we help your brand to grow.</b></h5>
         </div>
         <div class="col-lg-6 col-12 order-1 order-lg-2"data-aos="fade-up" data-aos-delay="800">
-          <img src="assets/img/mobile1.png" class="img-fluid">
+          <img src="assets/img/socialmedia/feature.png" class="img-fluid">
         </div>
       </div>
 
 
       <div class="row">
         <div class="col-lg-6 col-12"data-aos="fade-up" data-aos-delay="800">
-          <img src="assets/img/website-3.webp" class="img-fluid">
+          <img src="assets/img/web/budget.png" class="img-fluid">
         </div>
         <div class="col-lg-6 col-12" data-aos="fade-up" data-aos-delay="1000">
-          <h2 style="margin-top: 150px;font-size: 38px;font-weight: 600;">Decide Your Own Budget</h2>
-          <h5>You can decide on your advertising budget and we’ll keep a cap on the ad campaigns to ensure that we spend no more than the amount that you had decided.</h5>
+          <h2 style="margin-top: 90px;font-size: 38px;font-weight: 600;">Decide Your Own Budget</h2>
+          <h5>You can decide your budget on the basis of your buisness size and your requirements, and we just put the cap on the bottle, to ensure that we won't increase your decided budget.</h5>
         </div>
       </div>
 
@@ -187,6 +193,7 @@
 
   
   </main><!-- End #main -->
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -213,36 +220,35 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+   <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li> <a href="#">Home</a></li>
-              <li> <a href="#">About us</a></li>
-              <li> <a href="#">Services</a></li>
-              <li> <a href="#">Blogs</a></li>
-              <li> <a href="#">Contact Us</a></li>
+              <li> <a href="index.html">Home</a></li>
+              <li> <a href="index.html#about">About us</a></li>
+              <li> <a href="index.html">Services</a></li>
+              <li> <a href="blog.html">Blogs</a></li>
+              <li> <a href="index.html">Contact Us</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Application Development</a></li>
-              <li><a href="#">Social Media Marketing</a></li>
-              <li><a href="#">Paid Media</a></li>
+              <li><a href="webdesign.html">Web Design</a></li>
+              <li><a href="webdesign.html">Web Development</a></li>
+              <li><a href="applicationdev.html">Application Development</a></li>
+              <li><a href="socialmedia.html">Social Media Marketing</a></li>
+              <li><a href="paidmedia.html">Paid Media</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Services</h4>
             <ul>
-              <li><a href="#">Data Analysis</a></li>
-              <li><a href="#">Creative Media</a></li>
-              <li><a href="#">Social strategies</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Paid Media</a></li>
+              <li><a href="data_analysis.html">Data Analysis</a></li>
+              <li><a href="creative.html">Creative Media</a></li>
+              <li><a href="social.html">Social strategies</a></li>
+              <li><a href="socialmedia.html">Marketing</a></li>
             </ul>
           </div>
 
@@ -256,6 +262,7 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
 
   <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
 
