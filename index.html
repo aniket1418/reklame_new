@@ -38,6 +38,7 @@
 
 <body>
 
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex">
@@ -51,7 +52,13 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html" style="font-size: 18px;">Home</a></li>
-          <li><a href="abouts" style="font-size: 18px;">About</a>
+          <li><a href="index.html#about" style="font-size: 18px;">About</a>
+            <script>
+              if(window.location.href.includes("#aboutus"))
+          {
+              $(document).scrollTop(450);
+          }
+            </script>
             <!-- <ul>
               <li><a href="#about">About Us</a></li>
               <li><a href="#team">Team</a></li>
@@ -67,19 +74,25 @@
               </li>
             </ul> -->
           </li>
-          <li class="drop-down"><a href="#" style="font-size: 18px;">Services</a>
+          <li class="drop-down"><a href="#services" style="font-size: 18px;">Services</a>
             <ul>
               <li><a href="webdesign.html">Web Desiging/Development</a></li>
-              <li><a href="#">Application Development</a></li>
-              <li><a href="#">Data Analysis and Analytics</a></li>
-              <li><a href="#">Social Media Marketing</a></li>
-              <li><a href="#">Creative Media</a></li>
-              <li><a href="#">Paid Media</a></li>
-              <li><a href="#">Social Strategies</a></li>
+              <li><a href="applicationdev.html">Application Development</a></li>
+              <li><a href="data_analysis.html">Data Analsis</a></li>
+              <li><a href="socialmedia.html">Social Media Marketing</a></li>
+              <li><a href="creative.html">Creative Media</a></li>
+              <li><a href="paidmedia.html">Paid Media</a></li>
+              <li><a href="social.html">Social Strategies</a></li>
             </ul>
           </li>
-          <li><a href="#portfolio" style="font-size: 18px;">Blogs</a></li>
-          <li><a href="#contact" style="font-size: 18px;">Contact</a></li>
+          <li><a href="blog.html" style="font-size: 18px;">Blogs</a></li>
+          <li><a href="index.html#contact" style="font-size: 18px;">Contact</a></li>
+          <script>
+          if(window.location.href.includes("#contact"))
+          {
+              $(document).scrollTop(450);
+          }
+          </script>
 
         </ul>
       </nav><!-- .nav-menu -->
